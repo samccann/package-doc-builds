@@ -10,5 +10,5 @@ build:
     python: >-
       3.11
   commands:
-    - mkdir -p $READTHEDOCS_OUTPUT/html/
-    - cp -r docs/* $READTHEDOCS_OUTPUT/html/
+  - mkdir -pv "${READTHEDOCS_OUTPUT}"/html/
+  - cp -rv docs/* "${READTHEDOCS_OUTPUT}"/html/
